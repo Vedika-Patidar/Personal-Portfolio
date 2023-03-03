@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    text-align: center;
+
+}
+.start_container{
+    position: relative;
+    font-size: 2rem;
+    background-color: #c7e6f7;
+    text-align: center;
+    padding: 40px;
+}
+h1{
+    color: #66BFBF;
+    margin-top: 9%;
+    margin-inline: auto;
+    font-size: 6rem;
+    font-family: 'Shadows Into Light Two', cursive;
+    line-height: 0;
+}
+
+.para_head{
+    font-family: 'Shadows Into Light Two', cursive;
+    padding-bottom: 20px;
+    color: #66BFBF;
+
+}
+h2{
+    font-weight: normal;
+    color: #66BFBF;
+
+    
+}
+.mountain{
+    height: auto;
+}
+
+.bottom_cloud{
+    position: absolute;
+}
+.my_img{
+    margin-top: 20px;
+    border-radius: 100%;
+    border: 3px solid rosybrown;
+}
+.top_cloud{
+    position: absolute;
+    right: 470px;
+    bottom: 319px;
+}
+
+.skills_img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.management_skill{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    border: 1px solid grey;
+}
+
+.btn
+{
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    
+    border-radius: 10px;
+    background-color:#11999E;
+    color: white;
+
+}
+
+.middle-container{
+    margin: 20px;
+}
+
+.bottom-container{
+    margin-top: 20px;
+    
+}
+
+h3{
+    color: #11999E;
+}
+
+/* *********************************Skills Container**********************************/
+.middle-container .skills{
+    width: 50%;
+    margin-inline:auto;
+    padding: 10px;
+    
+}
+
+.middle-container .skills .skill-row img,.middle-container .skills .management-row img{ 
+    padding-top: 15px;
+}
+
+.middle-container .skills .skill-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+
+}
+
+.middle-container .skills .skill-row .skill-row-para{
+    width: 100%;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+
+/* *********************************Game Container**********************************/
+.middle-container .skills .management-row{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: start;
+    justify-content: space-between;
+
+}
+
+.middle-container .skills .management-row .management-row-para{
+    width: 100%;
+    margin-left: 30px;
+    text-align: start;
+}
+
+/* *********************************Contact Me Container**********************************/
+.middle-container .contact-me{
+    margin-inline: auto;
+    width: 25%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* *********************************Footer Container**********************************/
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 20px;
+}
+
+.bottom-container .footer-link{
+    padding-left: 2%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* *********************************hr tag **********************************/
+hr{
+    background-color: white;
+    border-style: none;
+    border-top-style:dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 5%;
+}
